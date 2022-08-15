@@ -23,7 +23,7 @@
           Surname:
           <input
             type="text"
-            name="surname"
+            name="name"
             autocomplete="off"
             required
             minlength="1"
@@ -56,7 +56,7 @@
           Full date of birth:
           <input
             type="date"
-            name="date-of-birth"
+            name="dateOfBirth"
             required
           >
         </label>
@@ -106,20 +106,24 @@
         </legend>
 
         <lable class="form__field">
-          Do you love cats?
-          <input
-            type="radio"
-            name="radio"
-            value="yes"
-          >
-          Yes
+          <label>
+            Do you love cats?
+            <input
+              type="radio"
+              name="radio"
+              value="yes"
+            >
+            Yes
+          </label>
 
-          <input
-            type="radio"
-            name="radio"
-            value="yes"
-          >
-          No
+          <label>
+            <input
+              type="radio"
+              name="radio"
+              value="yes"
+            >
+            No
+          </label>
         </lable>
 
         <lable class="form__field">
@@ -140,7 +144,7 @@
 
         <lable class="form__field" required>
           What are your favorite brand of cars?
-          <select name="brand-of-car" multiple>
+          <select name="brandOfCar" multiple>
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
@@ -152,7 +156,7 @@
           How do you rate our work?
           <input
             type="range"
-            name="rating-range"
+            name="ratingRange"
             required
           >
         </lable>
